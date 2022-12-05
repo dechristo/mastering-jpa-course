@@ -1,0 +1,4 @@
+CREATE DATABASE IF NOT EXISTS `books` /*!40100 DEFAULT CHARACTER SET utf8mb4 */ /*!80016 DEFAULT ENCRYPTION='N' */;
+CREATE USER IF NOT EXISTS 'booksadmin'@'%' IDENTIFIED WITH mysql_native_password BY 'booksadmin';
+GRANT ALL PRIVILEGES ON `books`.* TO `booksadmin`@`%`;
+FLUSH PRIVILEGES;
