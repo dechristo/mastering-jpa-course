@@ -17,4 +17,5 @@ public class Book {
     private String title;
     private long author;
     private String isbn;
+    private int publicationYear;
 }
