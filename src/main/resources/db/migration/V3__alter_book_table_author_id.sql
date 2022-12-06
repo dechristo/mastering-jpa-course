@@ -1,0 +1,1 @@
+alter table book change author author_id bigint;

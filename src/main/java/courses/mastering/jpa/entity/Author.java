@@ -9,12 +9,11 @@ import lombok.NoArgsConstructor;
 @Entity
 @Data
 @NoArgsConstructor
-public class Book {
-
+public class Author {
     @Id
     @GeneratedValue
     private long id;
-    private String title;
-    private long author;
-    private String isbn;
+    private String firstName;
+    private String lastName;
+    private String country;
 }
